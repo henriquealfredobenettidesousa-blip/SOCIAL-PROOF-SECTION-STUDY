@@ -7,6 +7,8 @@ body{
   margin: 0;
 }
 
+/* sections organization */
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -30,6 +32,8 @@ body{
   display: flex;
 }
 
+/* introduction section style */
+
 h1{
   font-size: 56px;
   font-weight: bold;
@@ -49,4 +53,37 @@ h1{
 
   color: rgb(146, 123, 145);
 }
+
+/* avaliation section style */
+
+.avaliations-box {
+  background-color: rgb(247, 242, 247);
+  color: rgb(81, 32, 81);
+
+  font-size: 17px;
+  font-weight: bold;
+
+  padding: 16px 32px;
+  margin: 14px 0px;
+
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+
+  max-width: 446px;
+  width: 100%;
+
+  border-style: none;
+  border-radius: 8px;
+}
+
+span {
+  margin-left: 20px;
+}
+
+/* Depoiment Section style */
+
+
+
+
 
