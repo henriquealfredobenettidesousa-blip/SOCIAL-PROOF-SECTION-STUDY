@@ -3,28 +3,24 @@ body{
 
 }
 
+*{
+  margin: 0;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas:
-    "top-left", 
-    "top-right",
-    "bottom";
 }
 
 .introduction-section {
   grid-column: 1;
   grid-row: 1;
-
-  background-color: lightcoral;
 }
 
 .avaliations-section {
   grid-column: 2;
   grid-row: 1;
-
-  background-color: lightskyblue;
 }
 
 .depoiments-section {
@@ -32,7 +28,25 @@ body{
   grid-row: 2;
 
   display: flex;
+}
 
-  background-color: lightgreen;
+h1{
+  font-size: 56px;
+  font-weight: bold;
+
+  letter-spacing: -2px;
+  line-height: 85%;
+
+  color: rgb(81, 32, 81);
+}
+
+.company-description {
+  font-size: 19px;
+  font-weight: 500;
+
+  letter-spacing: -0.6px;
+  line-height: 135%;
+
+  color: rgb(146, 123, 145);
 }
 
