@@ -192,14 +192,6 @@ p {
 
 /* responsive config */
 
-@media (max-width: 1440px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
 @media (max-width: 600px) {
   .grid-container {
     display: flex;
@@ -232,3 +224,4 @@ p {
   .company-description {
     text-align: center;
   }
+}
