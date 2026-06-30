@@ -1,6 +1,11 @@
 body{
   font-family: League Spartan, Helvetica Neue, Helvetica, Arial, sans-serif;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 *{
@@ -21,22 +26,27 @@ body{
 .introduction-section {
   grid-column: 1;
   grid-row: 1;
-
-  background-color: lightcoral;
 }
 
 .avaliations-section {
   grid-column: 2;
   grid-row: 1;
 
-  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 16px;
 }
 
 .depoiments-section {
   grid-column: 1/3;
   grid-row: 2;
 
-  background-color: lightskyblue;
+  display: flex;
+  justify-content: space-between;
+  column-gap: auto;
+
+  margin-top: 80px;
 }
 
 /* introduction section style */
@@ -52,6 +62,8 @@ h1{
 
   max-width: 445px;
   width: 100%;
+
+  margin-bottom: 16px;
 }
 
 .company-description {
@@ -77,11 +89,6 @@ h1{
   font-weight: bold;
 
   padding: 16px 32px;
-  margin: 14px 0px;
-
-  display: flex;
-  justify-content: center;
-  gap: 8px;
 
   max-width: 446px;
   width: 100%;
@@ -96,10 +103,6 @@ span {
 
 /* Depoiment Section style */
 
-.depoiments-section{
-  display: flex;
-  
-}
 article {
   background-color: rgb(81, 32, 81);
 
